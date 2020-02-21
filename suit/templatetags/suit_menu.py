@@ -10,7 +10,7 @@ except ImportError:
     # For Django >= 2.0
     from django.urls import reverse, resolve
 
-from six import string_types
+string_types = str
 
 import re
 import warnings
